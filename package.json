@@ -6,6 +6,7 @@
   "postinstall": "lerna bootstrap",
   "scripts": {
     "master": "vue-cli-service serve",
+    "build": "yarn && vue-cli-service build",
     "postinstall": "lerna bootstrap",
     "admin": "cd ./projects/admin && npm run serve",
     "admin:build": "cd ./projects/admin && npm run build",
